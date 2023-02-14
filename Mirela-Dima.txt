@@ -1,0 +1,88 @@
+
+Intr-un fisier nou cu numele tema-NUMELE-TAU.html adauga urmatoarele:
+
+- o variabila cu numele tau si sa fie afisata in consola
+
+let nume = "Mirela";
+
+console.log(nume);      -> save in VC -> refresh in fisier-> afiseaza rezultatul "Mirela"
+
+
+
+- o variabila cu varsta ta si sa fie afisata in consola
+
+let varsta = 40;
+
+console.log(varsta);    -> save in VC -> refresh in fisier -> afiseaza 40 
+
+
+
+- o variabila cu hobby-urile tale (adaga minim 3) si sa fie afisat in consola al 2-lea hobby
+
+let hobby = ["plibareCuMotocicleta", "dezvoltarePersonala", "makeUp", "muzica", "deepConversations"];
+
+console.log(hobby[2]);    -> save in VC -> refresh pe fisier -> afiseaza "makeUp"
+
+
+
+- o variabila cu starea civila si sa fie afisata in consola
+
+let starCivila = ["necasatorit", "casatorit", "divortat", "vaduv"];
+
+console.log(stareCivila);  -> save in VC -> refresh pe fisier -> 
+
+afiseaza ["necasatorit", "casatorit", "divortat", "vaduv"]
+0: "necasatorit"
+1: "casatorit"
+2: "divortat"
+3: "vaduv"
+
+
+
+- creeaza apoi 2 variabile a si b cu valori numerice si afiseaza suma si produsul acestor numere
+
+let a = 9;
+let b = 12;
+
+console.log(a+b);   -> save in VC -> refresh pe fisier -> afiseaza  21
+
+console.log(a*b);   -> save in VC -> refresh pe fisier -> afiseaza  108
+
+
+
+
+- o variabila cu numele caine care sa fie de tip obiect si sa contina urmatoarele date in interior:
+nume caine
+rasa
+varsta
+culoare
+posibile nume (minim 3)
+sexul
+daca are pedigree
+sa se afiseze in consola varsta, sexul si al 3-lea posibil nume
+
+*La final adauga fisierul in folderul de git (Automation) si trimite-l pe GitHub.
+
+
+
+let caine = {
+    numeCaine: "Toto",
+    rasa: "Pechinez",
+    varsta: 14,
+    culoare: "maron cu alb",
+    posibilNume: ["Aris", "Taz", "Nero", "Max", "Rex"],
+    sexul: "m",
+    pedigree: fals,
+    fostProprietar:{
+           nume: "Mihaela"
+           adresa: ["stradaMorilor", 52, "Galati"]     (?)
+           telefon: 0011223344
+           doresteSaRevadaCainele: true
+}
+}
+
+
+console.log(caine.varsta,sexul, posibilNume[3]);     -> save in VC -> refresh pe fisier -> afiseaza 14, "m", "Max"
+
+
+
